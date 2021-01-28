@@ -12,4 +12,10 @@
 
 > Found cool readme at QAWolf repo. Need to check how they're using images etc. - https://raw.githubusercontent.com/qawolf/qawolf/develop/README.md 
 
-> Hm...they also have playwright-video - https://github.com/qawolf/playwright-video. Need to check if playwight can do it out-of-the-box or I need to use their plugin
+> Hm...they also have playwright-video - https://github.com/qawolf/playwright-video. Need to check if playwight can do it out-of-the-box or I need to use their plugin.  
+P.S. In can do it with internal tools. 0_o 
+
+> **28 Jan 2020**: Tried to run some examples and samples scripts - it's super fast!  
+Another cool feature: browser options/capability configuration api interface is common for all browsers. 
+
+> Watched some videos and production examples of using playwright, now want to setup it with **jest** and **allure**. Looks really impressive.  

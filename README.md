@@ -17,12 +17,11 @@
 </p>
 
 <!-- Status -->
-
-<!-- <h4 align="center"> 
+<h4 align="center"> 
 	🚧  Playwright_poc 🚀 Under construction...  🚧
 </h4> 
 
-<hr> -->
+<hr>
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
@@ -36,31 +35,35 @@
 
 <br>
 
-## :dart: About ##
+## About ##
 
-Describe your project
+POC project to try out **Playwright** features. I'll also test GitHub Actions, GitHub Pages and note my thoughts in a [Diary](./DIARY.md)
 
-## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+## Features ##
 
-## :rocket: Technologies ##
+- [] Playwriight tests using PageObject structure;
+- [] GitHub Pages
+- [] Logging
+- [] Screenshots
+- [] Video recording
+- [] paralell execution
+- [] http/s mocking
+- [] CI build/test on new commit usiing GitHub Actions
+
+## Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
+- [Playwright](https://github.com/microsoft/playwright)
 - [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [TypeScript](https://www.typescriptlang.org/) - not yet!
 
-## :white_check_mark: Requirements ##
+## Requirements ##
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
-## :checkered_flag: Starting ##
+## Starting ##
 
 ```bash
 # Clone this project
@@ -70,15 +73,13 @@ $ git clone https://github.com/yyeshchev96/playwright_poc
 $ cd playwright_poc
 
 # Install dependencies
-$ yarn
+$ npm i
 
-# Run the project
-$ yarn start
-
-# The server will initialize in the <http://localhost:3000>
+# TBD: Run tests
+# $ npm test
 ```
 
-## :memo: License ##
+## License ##
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
